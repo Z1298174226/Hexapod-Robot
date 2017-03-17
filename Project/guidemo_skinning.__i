@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "E:\Keil_v4£¨1£©\ARM\INC" -I "E:\Keil_v4£¨1£©\ARM\INC\ST\STM32F10x" -o "guidemo_skinning.o" --omf_browse "guidemo_skinning.crf" --depend "guidemo_skinning.d" "..\GUIDemo\GUIDEMO_Skinning.c"

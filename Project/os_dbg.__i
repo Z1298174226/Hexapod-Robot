@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "E:\Keil_v4£¨1£©\ARM\INC" -I "E:\Keil_v4£¨1£©\ARM\INC\ST\STM32F10x" -o "os_dbg.o" --omf_browse "os_dbg.crf" --depend "os_dbg.d" "..\ucos_ii\Ports\os_dbg.c"

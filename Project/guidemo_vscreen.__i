@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "E:\Keil_v4£¨1£©\ARM\INC" -I "E:\Keil_v4£¨1£©\ARM\INC\ST\STM32F10x" -o "guidemo_vscreen.o" --omf_browse "guidemo_vscreen.crf" --depend "guidemo_vscreen.d" "..\GUIDemo\GUIDEMO_VScreen.c"

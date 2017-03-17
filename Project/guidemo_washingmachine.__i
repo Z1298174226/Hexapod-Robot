@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "E:\Keil_v4£¨1£©\ARM\INC" -I "E:\Keil_v4£¨1£©\ARM\INC\ST\STM32F10x" -o "guidemo_washingmachine.o" --omf_browse "guidemo_washingmachine.crf" --depend "guidemo_washingmachine.d" "..\GUIDemo\GUIDEMO_WashingMachine.c"

@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "E:\Keil_v4£¨1£©\ARM\INC" -I "E:\Keil_v4£¨1£©\ARM\INC\ST\STM32F10x" -o "lcd_x_8080_16.o" --omf_browse "lcd_x_8080_16.crf" --depend "lcd_x_8080_16.d" "..\GUI\LCD_X_8080_16.c"

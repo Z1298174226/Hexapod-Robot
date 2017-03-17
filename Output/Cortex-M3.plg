@@ -1,0 +1,257 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\zhaoxudong\Desktop\Cortex-M3\Project\Cortex-M3.uvproj
+Project File Date:  09/18/2015
+
+<h2>Output:</h2>
+compiling usart.c...
+..\Hardware\usart\usart.c - 0 Error(s), 0 Warning(s).
+Build target 'Cortex-M3'
+compiling main.c...
+..\User\main.c(26): error:  #5: cannot open source input file "kalman.h": No such file or directory
+..\User\main.c:   #include "kalman.h"
+..\User\main.c:                      ^
+..\User\main.c: ..\User\main.c: 0 warnings, 1 error
+compiling stm32f10x_it.c...
+..\User\stm32f10x_it.c(139): warning:  #9-D: nested comment is not allowed
+..\User\stm32f10x_it.c:   /**
+..\User\stm32f10x_it.c:   ^
+..\User\stm32f10x_it.c(158): warning:  #9-D: nested comment is not allowed
+..\User\stm32f10x_it.c:       OS_ENTER_CRITICAL();                         /* Tell uC/OS-II that we are starting an ISR          */
+..\User\stm32f10x_it.c:                                                    ^
+..\User\stm32f10x_it.c(194): warning:  #223-D: function "TimingDelay_Decrement" declared implicitly
+..\User\stm32f10x_it.c:         TimingDelay_Decrement();        
+..\User\stm32f10x_it.c:         ^
+..\User\stm32f10x_it.c(232): warning:  #223-D: function "Communication_Decode" declared implicitly
+..\User\stm32f10x_it.c:             Communication_Decode();             
+..\User\stm32f10x_it.c:             ^
+..\User\stm32f10x_it.c(275): warning:  #223-D: function "Angle_Calculate" declared implicitly
+..\User\stm32f10x_it.c:                 Angle_Calculate();
+..\User\stm32f10x_it.c:                 ^
+..\User\stm32f10x_it.c: ..\User\stm32f10x_it.c: 5 warnings, 0 errors
+compiling 24l01.c...
+compiling control.c...
+..\Hardware\CTL\control.c(18): error:  #5: cannot open source input file "kalman.h": No such file or directory
+..\Hardware\CTL\control.c:   #include "kalman.h"
+..\Hardware\CTL\control.c:                      ^
+..\Hardware\CTL\control.c: ..\Hardware\CTL\control.c: 0 warnings, 1 error
+compiling delay.c...
+..\Hardware\delay\delay.c(20): warning:  #9-D: nested comment is not allowed
+..\Hardware\delay\delay.c:       /****************************************
+..\Hardware\delay\delay.c:       ^
+..\Hardware\delay\delay.c(44): warning:  #9-D: nested comment is not allowed
+..\Hardware\delay\delay.c:   /***************************************************************************
+..\Hardware\delay\delay.c:   ^
+..\Hardware\delay\delay.c(55): warning:  #9-D: nested comment is not allowed
+..\Hardware\delay\delay.c:    /***************************************************************************
+..\Hardware\delay\delay.c:    ^
+..\Hardware\delay\delay.c(66): warning:  #9-D: nested comment is not allowed
+..\Hardware\delay\delay.c:   /***************************************************************************
+..\Hardware\delay\delay.c:   ^
+..\Hardware\delay\delay.c: ..\Hardware\delay\delay.c: 4 warnings, 0 errors
+compiling key.c...
+compiling glcd.c...
+..\Hardware\lcd\glcd.c(237): warning:  #550-D: variable "dumry" was set but never used
+..\Hardware\lcd\glcd.c:         uint16_t dumry;
+..\Hardware\lcd\glcd.c:                  ^
+..\Hardware\lcd\glcd.c(946): warning:  #186-D: pointless comparison of unsigned integer with zero
+..\Hardware\lcd\glcd.c:     if(x < 0 || x > LCD_XMAX || y < 0 || y > LCD_YMAX)
+..\Hardware\lcd\glcd.c:          ^
+..\Hardware\lcd\glcd.c(946): warning:  #186-D: pointless comparison of unsigned integer with zero
+..\Hardware\lcd\glcd.c:     if(x < 0 || x > LCD_XMAX || y < 0 || y > LCD_YMAX)
+..\Hardware\lcd\glcd.c:                                   ^
+..\Hardware\lcd\glcd.c(69): warning:  #177-D: function "LCD_GPIO_Config" was declared but never referenced
+..\Hardware\lcd\glcd.c:   static void LCD_GPIO_Config(void)
+..\Hardware\lcd\glcd.c:               ^
+..\Hardware\lcd\glcd.c: ..\Hardware\lcd\glcd.c: 4 warnings, 0 errors
+compiling pwm.c...
+..\Hardware\PWM\pwm.c(260): warning:  #177-D: variable "TIM_TimeBaseStructure" was declared but never referenced
+..\Hardware\PWM\pwm.c:          TIM_TimeBaseInitTypeDef  TIM_TimeBaseStructure;
+..\Hardware\PWM\pwm.c:                                   ^
+..\Hardware\PWM\pwm.c(262): warning:  #177-D: variable "TIM_OCInitStructure" was declared but never referenced
+..\Hardware\PWM\pwm.c:          TIM_OCInitTypeDef  TIM_OCInitStructure;
+..\Hardware\PWM\pwm.c:                             ^
+..\Hardware\PWM\pwm.c: ..\Hardware\PWM\pwm.c: 2 warnings, 0 errors
+compiling spi.c...
+compiling led.c...
+compiling UltrasonicWave.c...
+compiling TIM6.c...
+compiling bsp_I2C.c...
+compiling mpu6050.c...
+compiling misc.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_fsmc.c...
+compiling stm32f10x_i2c.c...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+compiling LCD_X_8080_16.c...
+compiling GUIDEMO_Start.c...
+compiling GUIDEMO_TransparentDialog.c...
+compiling GUIDEMO_Treeview.c...
+compiling GUIDEMO_VScreen.c...
+compiling GUIDEMO_WashingMachine.c...
+compiling GUIDEMO_ZoomAndRotate.c...
+compiling GUIDEMO.c...
+compiling GUIDEMO_Automotive.c...
+compiling GUIDEMO_BarGraph.c...
+compiling GUIDEMO_Bitmap.c...
+compiling GUIDEMO_ColorBar.c...
+compiling GUIDEMO_Conf.c...
+compiling GUIDEMO_Cursor.c...
+compiling GUIDEMO_Fading.c...
+compiling GUIDEMO_Graph.c...
+compiling GUIDEMO_IconView.c...
+compiling GUIDEMO_ImageFlow.c...
+compiling GUIDEMO_Intro.c...
+compiling GUIDEMO_Listview.c...
+compiling GUIDEMO_Resource.c...
+compiling GUIDEMO_Skinning.c...
+compiling GUIDEMO_Speed.c...
+compiling GUIDEMO_Speedometer.c...
+compiling GUIConf.c...
+compiling LCDConf.c...
+..\Config\LCDConf.c(146): warning:  #177-D: function "_WriteReg" was declared but never referenced
+..\Config\LCDConf.c:   static void _WriteReg(U16 Reg, U16 Data) {
+..\Config\LCDConf.c:               ^
+..\Config\LCDConf.c: ..\Config\LCDConf.c: 1 warning, 0 errors
+compiling os_cpu_c.c...
+compiling os_dbg.c...
+compiling GUI_X_Touch.c...
+compiling GUI_X_uCOS.c...
+compiling os_core.c...
+compiling os_flag.c...
+compiling os_mbox.c...
+compiling os_mem.c...
+compiling os_mutex.c...
+compiling os_q.c...
+compiling os_sem.c...
+compiling os_task.c...
+compiling os_time.c...
+compiling os_tmr.c...
+compiling bsp.c...
+Target not created
+compiling kalman.c...
+..\Hardware\bsp_I2C\kalman.c(188): warning:  #9-D: nested comment is not allowed
+..\Hardware\bsp_I2C\kalman.c:    /****************************************
+..\Hardware\bsp_I2C\kalman.c:    ^
+..\Hardware\bsp_I2C\kalman.c(215): warning:  #1-D: last line of file ends without a newline
+..\Hardware\bsp_I2C\kalman.c:       
+..\Hardware\bsp_I2C\kalman.c:       ^
+..\Hardware\bsp_I2C\kalman.c: ..\Hardware\bsp_I2C\kalman.c: 2 warnings, 0 errors
+..\Hardware\bsp_I2C\kalman.c - 0 Error(s), 2 Warning(s).
+Build target 'Cortex-M3'
+compiling main.c...
+..\User\main.c(44): warning:  #223-D: function "Go_straight" declared implicitly
+..\User\main.c:                         case 0x01:  Go_straight();     break;
+..\User\main.c:                                     ^
+..\User\main.c(172): error:  #20: identifier "Angle" is undefined
+..\User\main.c:             printf("\r\nx轴角度： %f      \r\ny轴加速度：       %f\n    ",Angle,Gyro_y);
+..\User\main.c:                                                                           ^
+..\User\main.c(172): error:  #20: identifier "Gyro_y" is undefined
+..\User\main.c:             printf("\r\nx轴角度： %f      \r\ny轴加速度：       %f\n    ",Angle,Gyro_y);
+..\User\main.c:                                                                                 ^
+..\User\main.c: ..\User\main.c: 1 warning, 2 errors
+compiling control.c...
+..\Hardware\CTL\control.c(304): warning:  #111-D: statement is unreachable
+..\Hardware\CTL\control.c:      Pace_135_Motor2(16,-16,STRAIGHT_DELAY);         //DOWM
+..\Hardware\CTL\control.c:      ^
+..\Hardware\CTL\control.c(323): warning:  #111-D: statement is unreachable
+..\Hardware\CTL\control.c:      Pace_135_Motor2(16,-16,ACTION_DELAY);   //DOWM
+..\Hardware\CTL\control.c:      ^
+..\Hardware\CTL\control.c(339): warning:  #111-D: statement is unreachable
+..\Hardware\CTL\control.c:      Pace_135_Motor2(16,-16,STAMP_DELAY);    //DOWM
+..\Hardware\CTL\control.c:      ^
+..\Hardware\CTL\control.c(354): warning:  #223-D: function "printf" declared implicitly
+..\Hardware\CTL\control.c:              printf("    温度%d\r\n",Temp);
+..\Hardware\CTL\control.c:              ^
+..\Hardware\CTL\control.c(356): error:  #20: identifier "Angle" is undefined
+..\Hardware\CTL\control.c:          printf("角度： %f       y轴加速度： %f      ",Angle,Gyro_y);        
+..\Hardware\CTL\control.c:                                                        ^
+..\Hardware\CTL\control.c(356): error:  #20: identifier "Gyro_y" is undefined
+..\Hardware\CTL\control.c:          printf("角度： %f       y轴加速度： %f      ",Angle,Gyro_y);        
+..\Hardware\CTL\control.c:                                                              ^
+..\Hardware\CTL\control.c(483): warning:  #1-D: last line of file ends without a newline
+..\Hardware\CTL\control.c:    
+..\Hardware\CTL\control.c:    ^
+..\Hardware\CTL\control.c: ..\Hardware\CTL\control.c: 5 warnings, 2 errors
+Target not created
+Build target 'Cortex-M3'
+compiling main.c...
+..\User\main.c(44): warning:  #223-D: function "Go_straight" declared implicitly
+..\User\main.c:                         case 0x01:  Go_straight();     break;
+..\User\main.c:                                     ^
+..\User\main.c(172): error:  #20: identifier "Angle" is undefined
+..\User\main.c:             printf("\r\nx轴角度： %f      \r\ny轴加速度：       %f\n    ",Angle,Gyro_y);
+..\User\main.c:                                                                           ^
+..\User\main.c(172): error:  #20: identifier "Gyro_y" is undefined
+..\User\main.c:             printf("\r\nx轴角度： %f      \r\ny轴加速度：       %f\n    ",Angle,Gyro_y);
+..\User\main.c:                                                                                 ^
+..\User\main.c: ..\User\main.c: 1 warning, 2 errors
+compiling control.c...
+..\Hardware\CTL\control.c(304): warning:  #111-D: statement is unreachable
+..\Hardware\CTL\control.c:      Pace_135_Motor2(16,-16,STRAIGHT_DELAY);         //DOWM
+..\Hardware\CTL\control.c:      ^
+..\Hardware\CTL\control.c(323): warning:  #111-D: statement is unreachable
+..\Hardware\CTL\control.c:      Pace_135_Motor2(16,-16,ACTION_DELAY);   //DOWM
+..\Hardware\CTL\control.c:      ^
+..\Hardware\CTL\control.c(339): warning:  #111-D: statement is unreachable
+..\Hardware\CTL\control.c:      Pace_135_Motor2(16,-16,STAMP_DELAY);    //DOWM
+..\Hardware\CTL\control.c:      ^
+..\Hardware\CTL\control.c(354): warning:  #223-D: function "printf" declared implicitly
+..\Hardware\CTL\control.c:              printf("    温度%d\r\n",Temp);
+..\Hardware\CTL\control.c:              ^
+..\Hardware\CTL\control.c(483): warning:  #1-D: last line of file ends without a newline
+..\Hardware\CTL\control.c:    
+..\Hardware\CTL\control.c:    ^
+..\Hardware\CTL\control.c: ..\Hardware\CTL\control.c: 5 warnings, 0 errors
+Target not created
+Build target 'Cortex-M3'
+compiling main.c...
+..\User\main.c(44): warning:  #223-D: function "Go_straight" declared implicitly
+..\User\main.c:                         case 0x01:  Go_straight();     break;
+..\User\main.c:                                     ^
+..\User\main.c: ..\User\main.c: 1 warning, 0 errors
+compiling control.c...
+..\Hardware\CTL\control.c(304): warning:  #111-D: statement is unreachable
+..\Hardware\CTL\control.c:      Pace_135_Motor2(16,-16,STRAIGHT_DELAY);         //DOWM
+..\Hardware\CTL\control.c:      ^
+..\Hardware\CTL\control.c(323): warning:  #111-D: statement is unreachable
+..\Hardware\CTL\control.c:      Pace_135_Motor2(16,-16,ACTION_DELAY);   //DOWM
+..\Hardware\CTL\control.c:      ^
+..\Hardware\CTL\control.c(339): warning:  #111-D: statement is unreachable
+..\Hardware\CTL\control.c:      Pace_135_Motor2(16,-16,STAMP_DELAY);    //DOWM
+..\Hardware\CTL\control.c:      ^
+..\Hardware\CTL\control.c(484): warning:  #1-D: last line of file ends without a newline
+..\Hardware\CTL\control.c:    
+..\Hardware\CTL\control.c:    ^
+..\Hardware\CTL\control.c: ..\Hardware\CTL\control.c: 4 warnings, 0 errors
+linking...
+..\Output\Cortex-M3.axf: Error: L6218E: Undefined symbol buffer (referred from stm32f10x_it.o).
+..\Output\Cortex-M3.axf: Error: L6218E: Undefined symbol Accel (referred from kalman.o).
+..\Output\Cortex-M3.axf: Not enough information to list image symbols.
+..\Output\Cortex-M3.axf: Finished: 1 information, 0 warning and 2 error messages.
+Target not created
+compiling kalman.c...
+..\Hardware\bsp_I2C\kalman.c(188): warning:  #9-D: nested comment is not allowed
+..\Hardware\bsp_I2C\kalman.c:    /****************************************
+..\Hardware\bsp_I2C\kalman.c:    ^
+..\Hardware\bsp_I2C\kalman.c(215): warning:  #1-D: last line of file ends without a newline
+..\Hardware\bsp_I2C\kalman.c:       
+..\Hardware\bsp_I2C\kalman.c:       ^
+..\Hardware\bsp_I2C\kalman.c: ..\Hardware\bsp_I2C\kalman.c: 2 warnings, 0 errors
+..\Hardware\bsp_I2C\kalman.c - 0 Error(s), 2 Warning(s).
+Build target 'Cortex-M3'
+linking...
+..\Output\Cortex-M3.axf: Error: L6218E: Undefined symbol buffer (referred from stm32f10x_it.o).
+..\Output\Cortex-M3.axf: Error: L6218E: Undefined symbol Accel (referred from kalman.o).
+..\Output\Cortex-M3.axf: Not enough information to list image symbols.
+..\Output\Cortex-M3.axf: Finished: 1 information, 0 warning and 2 error messages.
+Target not created
